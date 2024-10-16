@@ -2,7 +2,7 @@ const express = require("express");
 const path = require('path');
 const app = express();
 
-var publicDir = path.join(__dirname, 'public');
+var publicDir = path.join(__dirname, '.');
 app.use("/", express.static(publicDir));
 
 var nodeModulesDir = path.join(__dirname, 'node_modules');
