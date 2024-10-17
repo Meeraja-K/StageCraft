@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { LoadGLTFByPath } from './Helpers/ModelHelper.js';
+import { LoadGLTFByPath } from './ModelHelper.js';
 import { OrbitControls } from '/node_modules/three/examples/jsm/controls/OrbitControls.js';
 
 export function init3DScene() {
